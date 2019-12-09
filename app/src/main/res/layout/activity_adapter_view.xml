@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".adapter.AdapterRecycleView">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        app:cardCornerRadius="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:layout_marginStart="355dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="5dp"
+            android:src="@android:drawable/ic_delete" />
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="170dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="11dp"
+            android:hint="Name" />
+
+        <TextView
+            android:id="@+id/userid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="310dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="66dp"
+            android:hint="ID" />
+
+        <TextView
+            android:id="@+id/usersalary"
+            android:layout_width="66dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="170dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="66dp"
+            android:hint="Salary" />
+
+        <TextView
+            android:id="@+id/userage"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="170dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="38dp"
+            android:hint="Age" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="250dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="66dp"
+            android:hint="ID:" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="66dp"
+            android:text="Salary:" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="38dp"
+            android:hint="Age:" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="11dp"
+            android:hint="Name:" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageView"
+            android:layout_width="83dp"
+            android:src="@drawable/ic_male_icon"
+            android:layout_height="match_parent" />
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
